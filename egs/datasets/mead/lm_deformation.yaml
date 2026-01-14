@@ -1,0 +1,4 @@
+base_config:
+  - egs/egs_bases/lm_deformation/lm_deformation.yaml
+
+task_cls: tasks.lm_deformation.lm_deformation.LandmarkDeformationTask

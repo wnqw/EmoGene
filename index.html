@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>EmoGene: Audio-Driven Emotional 3D Talking-Head Generation</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">EmoGene: Audio-Driven Emotional 3D Talking-Head Generatio</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://wenqing-wang.netlify.app/" target="_blank">Wenqing Wang</a><sup>*</sup>and</span>
+                <span class="author-block">
+                  <a href="https://www1.ece.neu.edu/~yunfu/" target="_blank">Yun Fu</span>
+                  <!-- <span class="author-block"> -->
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank"></a>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Northeastern University<br>2025 IEEE FG</span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2410.17262" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code (Coming Soon)</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <!-- <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a> -->
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Audio-driven talking-head generation is a crucial and useful technology for virtual human interaction and film-making. While recent advances have focused on improving image fidelity and lip synchronization, generating accurate emotional expressions remains underexplored. In this paper, we introduce EmoGene, a novel framework for synthesizing high-fidelity, audio-driven video portraits with accurate emotional expressions. Our approach employs a variational autoencoder (VAE)-based audio-to-motion module to generate facial landmarks, which are concatenated with emotional embedding in a motion-to-emotion module to produce emotional landmarks. These landmarks drive a Neural Radiance Fields (NeRF)-based emotion-to-video module to render realistic emotional talking-head videos. Additionally, we propose a pose sampling method to generate natural idle-state (non-speaking) videos for silent audio inputs. Extensive experiments demonstrate that EmoGene outperforms previous methods in generating high-fidelity emotional talking-head videos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Pipeline</h2>
+      <img src="static/images/pipeline.jpg" alt="Pipeline Image"/>
+      <p class="is-size-7 has-text-centered">1) The Audio-to-Motion module converts input audio features into neutral facial landmarks. 2) The Motion-to-Emotion module transforms these landmarks into emotional landmarks based on the emotion label. 3) The Emotion-to-Video module generates the emotional talking-head video conditioned on the emotional landmarks.</p>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Quantitative Results</h2>
+      <h2 class="title is-4 has-text-centered">Baseline Comparisons</h2>
+      <img src="static/images/quan_main.png" alt="quan_main Image" style="display: block; margin: 0 auto;"/>
+      <h2 class="title is-4 has-text-centered">Idle-State Comparisons</h2>
+      <img src="static/images/quan_idle.png" alt="quan_idle Image" style="display: block; margin: 0 auto; width: 50%;"/>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Qualitative Results</h2>
+      <h2 class="title is-4 has-text-centered">Baseline Comparisons</h2>
+      <img src="static/images/qua.jpg" alt="quan_main Image" style="display: block; margin: 0 auto;"/>
+      <h2 class="title is-4 has-text-centered">Idle-State Comparisons</h2>
+      <img src="static/images/qua_idle.jpg" alt="quan_idle Image" style="display: block; margin: 0 auto; width: 50%;"/>
+      <h2 class="title is-4 has-text-centered">User Study</h2>
+      <img src="static/images/mos.png" alt="user_study Image" style="display: block; margin: 0 auto;"/>
+      <p class="is-size-7 has-text-centered">MOS results from 20 participants. The participants were instructed to rate each video based on 4 criteria: 1) emotional accuracy; 2) lip synchronization; 3) video realism; and 4) video quality.</p>
+    </div>
+  </div>
+</section>
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@INPROCEEDINGS{11099460,
+        author={Wang, Wenqing and Fu, Yun},
+        booktitle={2025 IEEE 19th International Conference on Automatic Face and Gesture Recognition (FG)}, 
+        title={EmoGene: Audio-Driven Emotional 3D Talking-Head Generation}, 
+        year={2025},
+        volume={},
+        number={},
+        pages={1-10},
+        keywords={Deformable models;Accuracy;Three-dimensional displays;Lips;Gesture recognition;Sampling methods;Neural radiance field;Rendering (computer graphics);Synchronization;Videos},
+        doi={10.1109/FG61629.2025.11099460}}
+      </code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
