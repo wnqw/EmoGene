@@ -1,6 +1,6 @@
 # EmoGene: Audio-Driven Emotional 3D Talking-Head Generatio
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-%3CCOLOR%3E.svg)](https://arxiv.org/pdf/2410.17262)| [![Project Page](https://img.shields.io/badge/Project-Page-blue?logo=github)](https://wnqw.github.io/EmoGene/)  
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-%3CCOLOR%3E.svg)](https://arxiv.org/pdf/2410.17262) | [![Project Page](https://img.shields.io/badge/Project-Page-blue?logo=github)](https://wnqw.github.io/EmoGene/)  
 
 <p align="center">
     <br>
