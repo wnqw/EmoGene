@@ -4,7 +4,7 @@
 
 <p align="center">
     <br>
-    <img src="pipeline/pipeline.png" width="100%"/>
+    <img src="assets/pipeline.png" width="100%"/>
     <br>
 </p>
 
