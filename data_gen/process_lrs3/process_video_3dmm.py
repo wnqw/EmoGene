@@ -105,18 +105,18 @@ def split_wav(mp4_name):
     audio.write_audiofile(wav_name,fps=16000,verbose=False,logger=None)
 
 if __name__ == '__main__':
-    ### Process short video clips for LRS3 dataset
+    ### Process short video clips for MEAD dataset
     from argparse import ArgumentParser
     parser = ArgumentParser()
-    # parser.add_argument('--lrs3_path', type=int, default='/home/yezhenhui/datasets/raw/lrs3_raw', help='')
-    parser.add_argument('--lrs3_path', type=str, default='/home/qw/wenqing/data/mead', help='')
+    # parser.add_argument('--mead_path', type=int, default='/home/yezhenhui/datasets/raw/lrs3_raw', help='')
+    parser.add_argument('--mead_path', type=str, default='/mnt/sda4/mead_data/mead', help='')
     parser.add_argument('--process_id', type=int, default=0, help='')
     parser.add_argument('--total_process', type=int, default=1, help='')
     args = parser.parse_args()
 
     import os, glob
-    lrs3_dir = args.lrs3_path
-    mp4_name_pattern = os.path.join(lrs3_dir, "*/*.mp4")
+    mead_dir = args.mead_path
+    mp4_name_pattern = os.path.join(mead_dir, "*/*.mp4")
     mp4_names = glob.glob(mp4_name_pattern)
     mp4_names = sorted(mp4_names)
     if args.total_process > 1:

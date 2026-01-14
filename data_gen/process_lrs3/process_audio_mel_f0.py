@@ -90,11 +90,11 @@ def extract_mel_f0_from_fname(fname, out_name=None):
 
 if __name__ == '__main__':
     import os, glob
-    # lrs3_dir = "/home/yezhenhui/datasets/raw/lrs3_raw"
-    # wav_name_pattern = os.path.join(lrs3_dir, "*/*.wav")
+    # mead_dir = "/home/yezhenhui/datasets/raw/lrs3_raw"
+    # wav_name_pattern = os.path.join(mead_dir, "*/*.wav")
 
-    lrs3_dir = '/home/qw/wenqing/data/mead'
-    wav_name_pattern = os.path.join(lrs3_dir, "*/*.wav")
+    mead_dir = '/mnt/sda4/mead_data/mead'
+    wav_name_pattern = os.path.join(mead_dir, "*/*.wav")
     
     wav_names = glob.glob(wav_name_pattern)
     wav_names = sorted(wav_names)

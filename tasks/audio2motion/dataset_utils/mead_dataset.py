@@ -332,19 +332,3 @@ if __name__ == '__main__':
     loader = ds.get_dataloader()
     pbar = tqdm.tqdm(total=len(ds.batch_by_size(ds.ordered_indices())))
 
-    # print(f'{len(ds)}, {len(ds.batch_by_size(ds.ordered_indices()))}') # 11216, 22
-
-    # for i in tqdm.trange(len(ds)):
-    #     ds[i]
-    
-    # for batch in loader:
-        # pass
-    #     print(batch)
-        # pbar.update(1)
-
-    # print(next(iter(loader)))
-    # print(next(iter(loader))['idexp_lm3d'].shape) # 512, 1: 512 samples per batch, 1 emotion label per sample
-    
-    # file = '/home/qw/wenqing/data/mead/M003/M003_ang_3_001_hubert.npy'
-    # data_arr = np.load(file, allow_pickle=True)
-    # print(data_arr)
